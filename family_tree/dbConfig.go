@@ -10,8 +10,8 @@ import (
 
 func Connection() *sql.Conn {
 	Conf := mysql.Config{
-		User:                 "root",
-		Passwd:               "",
+		User:                 "****",
+		Passwd:               "****",
 		DBName:               "family_tree",
 		Net:                  "tcp",
 		Addr:                 "127.0.0.1:3306",
